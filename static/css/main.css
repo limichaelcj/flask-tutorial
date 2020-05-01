@@ -1,0 +1,30 @@
+:root {
+    --line: 1px solid #888;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    background-color: #eee;
+    padding: .5em 1em;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+th {
+    border-bottom: var(--line);
+}
+
+tr > * {
+    padding: .5em 1em;
+    border-right: var(--line);
+}
+
+tr > *:first-child {
+    border-left: var(--line);
+}
